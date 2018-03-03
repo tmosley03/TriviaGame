@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Bootstrap CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Googel Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bungee+Shade" rel="stylesheet">
+
+    <!-- My css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Let's get ready to RUMBLE!!!</h1>
+        </header>
+        <div id="top-row" class="row">
+            <div id="start-screen" class="col-lg-9 col-xs-9">
+                <p id="title">Fight Night Trivia</p>
+                <button id="start-button" class="btn">Let's Get It On!</button>
+            </div>
+            <div id="game-content" class="col-lg-9 col-xs-9">
+                <!-- Count down Timer (maybe a new div) -->
+                <!-- game question options (use multiple forms) -->
+                <div id="question1" class="questions">
+                    <form action="">
+                        <p>1. What boxing class is heaviest - flyweight, bantam weight or feather weight?</p>
+                        <hr>
+                        <div class="radio">
+                            <label><input class = "correct" type = "radio" name = "optradio"><span>Feather Weight</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Flyweight</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Bantom Weight</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Crouiser Weight</span></label>
+                        </div>
+                    </form>
+                </div>
+                <div id="question2" class="questions">
+                    <form action="">
+                        <p>2. Who was the great middleweight boxer nicknamed "Marvelous"?</p>
+                        <hr>
+                        <div class="radio">
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Milt Hinton</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Leon Spinks</span></label>
+                            <label><input class = "correct" type = "radio" name = "optradio"><span>Marvin Hagler</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Ray Leonard</span></label>
+                        </div>
+                    </form>
+                </div>
+                <div id="question3" class="questions">
+                    <form action="">
+                        <p>3. Who was the last undisputed heavyweight champ before Mike Tyson?</p>
+                        <hr>
+                        <div class="radio">
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Mohamed Ali</span></label>
+                            <label><input class = "correct" type = "radio" name = "optradio"><span>Leon Spinks</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Larry Holmes</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>George Foreman</span></label>
+                        </div>
+                    </form>
+                </div>
+                <div id="question4" class="questions">
+                    <form action="">
+                        <p>4. Who received a reported $25 million for a 1995 boxing match that lasted 89 seconds?</p>
+                        <hr>
+                        <div class="radio">
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Floyd Mayweather</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Roy Jones Jr.</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Oscar De La Hoya</span></label>
+                            <label><input class = "correct" type = "radio" name = "optradio"><span>Mike Tyson</span></label>
+                        </div>
+                    </form>
+                </div>
+                <div id="question5" class="questions">
+                    <form action="">
+                        <p>5. Who beat Michael Moorer in a 1994 heavyweight title fight, and later put his name on electric grill appliances?</p>
+                        <hr>
+                        <div class="radio">
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Evander Holyfield</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>David Tua</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Lennox Lewis</span></label>
+                            <label><input class = "correct" type = "radio" name = "optradio"><span>George Forman</span></label>
+                        </div>
+                    </form>
+                </div>
+                <div id="question6" class="questions">
+                    <form action="">
+                        <p>6. What does the " T " in TKO stand for?</p>
+                        <hr>
+                        <div class="radio">
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Tremendous</span></label>
+                            <label><input class = "correct" type = "radio" name = "optradio"><span>Technical</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Thunderous</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>"That had to hurt like hell"</span></label>
+                        </div>
+                    </form>
+                </div>
+                <div id="question7" class="questions">
+                    <form action="">
+                        <p>7. Who was the first boxer to twice regain the World Heavyweight Title?</p>
+                        <hr>
+                        <div class="radio">
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Joe Fraizer</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Jack Dempsy</span></label>
+                            <label><input class = "correct" type = "radio" name = "optradio"><span>Muhamad Ali</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Riddick Bowe</span></label>
+                        </div>
+                    </form>
+                </div>
+                <div id="question8" class="questions">
+                    <form action="">
+                        <p>8. What boxer faught under the nickname "Sweet Pea"</p>
+                        <hr>
+                        <div class="radio">
+                            <label><input class = "correct" type = "radio" name = "optradio"><span>Pernell Whitaker</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Roberto Duran</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Julio Ceasar Chavez</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Manny Pacquiao</span></label>
+                        </div>
+                    </form>
+                </div>
+                <div id="question9" class="questions">
+                    <form action="">
+                        <p>9. Who was the first boxer to serve Mike Tyson his first professional defeat?</p>
+                        <hr>
+                        <div class="radio">
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Evander Holyfield</span></label>
+                            <label><input class = "correct" type = "radio" name = "optradio"><span>James "Buster" Douglas</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>James Tony</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Joe Louis</span></label>
+                        </div>
+                    </form>
+                </div>
+                <div id="question10" class="questions">
+                    <form action="">
+                        <p>10. What heavyweight became the first boxer to grace a first-class U.S. postage stamp?</p>
+                        <hr>
+                        <div class="radio">
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Rocky Marciano</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>George Foreman</span></label>
+                            <label><input class = "incorrect" type = "radio" name = "optradio"><span>Mohamed Ali</span></label>
+                            <label><input class = "correct" type = "radio" name = "optradio"><span>Joe Louis</span></label>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div id="mid-row" class="row">
+
+        </div>
+    </div>
+
+    <!-- my script -->
+    <script src="assets/javascript/app.js"></script>
+    <!-- jquery link -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+</body>
+
+</html>

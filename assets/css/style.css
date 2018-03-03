@@ -1,0 +1,53 @@
+        body {
+            background-image: url('../images/backGroundImage.jpg');
+        }
+        
+        #top-row {
+            text-align: center;
+        }
+        
+        #start-screen {
+            /* background-color: rgba(175, 175, 206, 0.473); */
+            display: inline-block;
+            margin: 0;
+            margin-bottom: 50px;
+            float: none;
+            border-radius: 5px;
+        }
+        
+        header {
+            background-color: black;
+            border-radius: 5px;
+            height: 75px;
+            text-align: center;
+            color: red;
+            margin-bottom: 50px;
+            font-family: 'Bungee Shade', cursive;
+        }
+        
+        #game-content {
+            display: inline-block;
+            margin: 0;
+            float: none;
+            border-radius: 5px;
+            border: solid 3px red;
+            margin-bottom: 50px;
+        }
+        
+        .questions {
+            border: solid 1px black;
+            margin-top: 5px;
+            background-color: rgba(34, 114, 151, 0.856);
+            border-radius: 5px;
+        }
+        
+        span,
+        p {
+            color: white;
+        }
+        
+        hr {
+            width: 80%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
