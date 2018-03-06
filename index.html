@@ -16,6 +16,9 @@
 
     <!-- My css -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- jquery link -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,11 +28,12 @@
         </header>
         <div id="top-row" class="row">
             <div id="start-screen" class="col-lg-9 col-xs-9">
-                <p id="title">Fight Night Trivia</p>
-                <button id="start-button" class="btn">Let's Get It On!</button>
+
+                <button id="start-button" class="btn">Fight Night Trivia <br> Let's Get It On!</button>
             </div>
             <div id="game-content" class="col-lg-9 col-xs-9">
                 <!-- Count down Timer (maybe a new div) -->
+                <div id="timer"></div> <br>
                 <!-- game question options (use multiple forms) -->
                 <div id="question1" class="questions">
                     <form action="">
@@ -151,7 +155,7 @@
                         </div>
                     </form>
                 </div>
-
+                <button id="submit" class="btn">Submit</button>
             </div>
         </div>
         <div id="mid-row" class="row">
@@ -161,8 +165,7 @@
 
     <!-- my script -->
     <script src="assets/javascript/app.js"></script>
-    <!-- jquery link -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
 </body>
 
 </html>
